@@ -64,7 +64,7 @@ function blob_fixup() {
             ;;
     esac
 }
-
+CLEAN_VENDOR=false
 # Initialize the helper
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
 
